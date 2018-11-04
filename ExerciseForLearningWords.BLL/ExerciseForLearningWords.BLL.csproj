@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\ExerciseForLearningWords.DAL\ExerciseForLearningWords.DAL.csproj" />
   </ItemGroup>
 
 </Project>

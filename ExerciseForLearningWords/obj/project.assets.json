@@ -5029,6 +5029,19 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "ExerciseForLearningWords.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ExerciseForLearningWords.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ExerciseForLearningWords.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExerciseForLearningWords.BLL.dll": {}
+        }
+      },
       "ExerciseForLearningWords.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -13125,6 +13138,11 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "ExerciseForLearningWords.BLL/1.0.0": {
+      "type": "project",
+      "path": "../ExerciseForLearningWords.BLL/ExerciseForLearningWords.BLL.csproj",
+      "msbuildProject": "../ExerciseForLearningWords.BLL/ExerciseForLearningWords.BLL.csproj"
+    },
     "ExerciseForLearningWords.DAL/1.0.0": {
       "type": "project",
       "path": "../ExerciseForLearningWords.DAL/ExerciseForLearningWords.DAL.csproj",
@@ -13133,6 +13151,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "ExerciseForLearningWords.BLL >= 1.0.0",
       "ExerciseForLearningWords.DAL >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.6",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -13172,6 +13191,9 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "F:\\My program\\ExerciseForLearningWords\\ExerciseForLearningWords.BLL\\ExerciseForLearningWords.BLL.csproj": {
+              "projectPath": "F:\\My program\\ExerciseForLearningWords\\ExerciseForLearningWords.BLL\\ExerciseForLearningWords.BLL.csproj"
+            },
             "F:\\My program\\ExerciseForLearningWords\\ExerciseForLearningWords.DAL\\ExerciseForLearningWords.DAL.csproj": {
               "projectPath": "F:\\My program\\ExerciseForLearningWords\\ExerciseForLearningWords.DAL\\ExerciseForLearningWords.DAL.csproj"
             }
