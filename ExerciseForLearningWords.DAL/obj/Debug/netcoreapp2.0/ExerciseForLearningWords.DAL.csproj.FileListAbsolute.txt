@@ -1,0 +1,11 @@
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.deps.json
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.csproj.CoreCompileInputs.cache
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.AssemblyInfoInputs.cache
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.AssemblyInfo.cs
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.csproj.CopyComplete
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb
