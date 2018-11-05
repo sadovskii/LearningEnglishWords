@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "ExerciseForLearningWords.BLL/1.0.0": {
+        "dependencies": {
+          "ExerciseForLearningWords.DAL": "1.0.0"
+        },
         "runtime": {
           "ExerciseForLearningWords.BLL.dll": {}
+        }
+      },
+      "ExerciseForLearningWords.DAL/1.0.0": {
+        "runtime": {
+          "ExerciseForLearningWords.DAL.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ExerciseForLearningWords.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExerciseForLearningWords.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

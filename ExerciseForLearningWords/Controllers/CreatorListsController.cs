@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ExerciseForLearningWords.BLL.Interfaces;
+using ExerciseForLearningWords.CommonViewModels.Models;
 using ExerciseForLearningWords.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,12 +11,12 @@ namespace ExerciseForLearningWords.Controllers
 {
     public class CreatorListsController : Controller
     {
-        private readonly ICreatorListsService creatorListsService;
+        //private readonly ICreatorListsService creatorListsService;
 
-        public CreatorListsController(ICreatorListsService creatorListsService)
-        {
-            this.creatorListsService = creatorListsService;
-        }
+        //public CreatorListsController(ICreatorListsService creatorListsService)
+        //{
+        //    this.creatorListsService = creatorListsService;
+        //}
 
         public IActionResult Creator()
         {
@@ -44,7 +45,12 @@ namespace ExerciseForLearningWords.Controllers
             return View(rrr);
         }
 
-        public IActionResult DeleteWordsList(int id)
+        public IActionResult DeleteWordsList(WordsListView wordsListView)
+        {
+            return RedirectToAction("Creator");
+        }
+
+        public IActionResult SaveNewWordsList(SaveListWordsView saveList)
         {
             return RedirectToAction("Creator");
         }

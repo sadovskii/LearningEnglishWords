@@ -12,3 +12,19 @@ F:\My program\ExerciseForLearningWords\ExerciseForLearningWords\bin\Debug\netcor
 F:\My program\ExerciseForLearningWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.csproj.CopyComplete
 F:\My program\ExerciseForLearningWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.dll
 F:\My program\ExerciseForLearningWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.pdb
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.deps.json
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.runtimeconfig.json
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.runtimeconfig.dev.json
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.dll
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.pdb
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.BLL.dll
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.BLL.pdb
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.AssemblyInfo.cs
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.csproj.CopyComplete
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.dll
+C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.pdb

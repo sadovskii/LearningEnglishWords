@@ -1,14 +1,13 @@
-﻿@model List<ExerciseForLearningWords.Models.WordsListView>
-
+﻿@model ExerciseForLearningWords.CommonViewModels.Models.ShowHideRandomExerciseView
 @{
-    ViewData["Title"] = "Creator";
+    ViewData["Title"] = "ShowHideRandomExercise";
 }
 
 <div class="row">
     <div class="col-md-4" style="border: 1px dashed red">
-        @foreach(var a in Model)
+        @foreach (var a in Model.WordsList)
         {
-            <form asp-controller="CreatorLists" asp-action="DeleteWordsList" method="post">
+            <form asp-controller="ExerciseForLearning" asp-action="SelectWordsPairs" method="post">
                 <div class="row list-of-WordsList-element">
                     @Html.Hidden("Id", a.Id)
                     <div class="col-md-6"><p>@a.Name</p></div>
@@ -16,17 +15,17 @@
                     <div class="col-md-3"><p>@a.QuantityWords</p></div>
                     @Html.Hidden("QuantityWords", a.QuantityWords)
                     <div class="col-md-3">
-                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <button type="submit" class="btn btn-success">Select</button>
                     </div>
                 </div>
-           </form>
+            </form>
 
         }
-            
-            
+
+
     </div>
     <div class="col-md-8">
-        <form asp-controller="CreatorLists" asp-action="SaveNewWordsList" method="post">
+        @*<form asp-controller="CreatorLists" asp-action="SaveNewWordsList" method="post">
             <label>Название списка</label>
             <div class="row">
                 <div class="col-md-6">
@@ -42,7 +41,7 @@
                     <textarea class="form-control fixedWidthTextarea" rows="30" name="PairsOfWords"></textarea>
                 </div>
             </div>
-        </form>
+        </form>*@
     </div>
 </div>
 

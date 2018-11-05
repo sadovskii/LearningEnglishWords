@@ -33,3 +33,13 @@
         display: none;
     }
 }
+
+.list-of-WordsList-element {
+    border: 1px solid black;
+    margin: 5px 0px 5px 0px;
+    padding: 4px;
+}
+
+.fixedWidthTextarea {
+    resize: vertical;
+}
