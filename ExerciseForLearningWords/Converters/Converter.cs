@@ -20,7 +20,7 @@ namespace ExerciseForLearningWords.Converters
             };
         }
 
-        public static List<WordsListView> DtoToViewList(this IEnumerable<WordsListDTO> wordsList)
+        public static List<WordsListView> DtoToView(this IEnumerable<WordsListDTO> wordsList)
         {
             return wordsList.Select(t => t.DtoToView()).ToList();
         }
@@ -58,6 +58,20 @@ namespace ExerciseForLearningWords.Converters
             return wordsList.Select(t => t.ViewToDto()).ToList();
         }
 
+        public static WordsAndTranslationPairView DtoToView(this WordsAndTranslationPairDTO wordsAndTranslationPair)
+        {
+            return new WordsAndTranslationPairView
+            {
+                Word = wordsAndTranslationPair.Word,
+                Translation = wordsAndTranslationPair.Translation,
+                Status = wordsAndTranslationPair.Status
+            };
+        }
+
+        public static List<WordsAndTranslationPairView> DtoToView(this IEnumerable<WordsAndTranslationPairDTO> wordsAndTranslationPair)
+        {
+            return wordsAndTranslationPair.Select(t => t.DtoToView()).ToList();
+        }
 
     }
 }

@@ -70,7 +70,8 @@ namespace ExerciseForLearningWords.BLL
 
         public static List<WordsAndTranslationPairDTO> EntityToDto(this IEnumerable<WordsAndTranslationPair> WordsAndTranslationPairs)
         {
-            return WordsAndTranslationPairs.Select(t => t.EntityToDto()).ToList();
+            var a = WordsAndTranslationPairs.Select(t => t.EntityToDto());
+            return a.ToList();
         }
     }
 }

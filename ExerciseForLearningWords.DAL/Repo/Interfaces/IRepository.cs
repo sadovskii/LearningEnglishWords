@@ -7,7 +7,7 @@ namespace ExerciseForLearningWords.DAL.Repo.Interfaces
     public interface IRepository<T>
     {
         IEnumerable<T> GetAll();
-        T Get(long id);
+        T Get(int id);
         void Insert(T entity);
         int InsertAndGetId(T entity);
         void Update(T entity);

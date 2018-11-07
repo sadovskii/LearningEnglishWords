@@ -24,7 +24,7 @@ namespace ExerciseForLearningWords.Controllers
 
         public IActionResult Creator()
         {
-            creatorListsView.wordsLists = creatorListsService.GetAllWordsLists().DtoToViewList();
+            creatorListsView.wordsLists = creatorListsService.GetAllWordsLists().DtoToView();
 
             return View(creatorListsView);
         }

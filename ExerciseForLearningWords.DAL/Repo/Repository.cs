@@ -14,7 +14,7 @@ namespace ExerciseForLearningWords.DAL.Repo
         private readonly ApplicationContext context;
         private DbSet<T> entities;
         string errorMessage = string.Empty;
-
+        private DbSet<WordsList> entitiesTest;
         public Repository(ApplicationContext context)
         {
             this.context = context;
@@ -31,9 +31,10 @@ namespace ExerciseForLearningWords.DAL.Repo
             context.SaveChanges();
         }
 
-        public T Get(long id)
+        public T Get(int id)
         {
-            throw new NotImplementedException();
+            var a = entities.SingleOrDefault(s => s.Id == id);
+            return a;
         }
 
         public IEnumerable<T> GetAll()

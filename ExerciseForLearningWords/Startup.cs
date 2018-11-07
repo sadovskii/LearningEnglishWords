@@ -34,6 +34,7 @@ namespace ExerciseForLearningWords
             services.AddMvc();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<ICreatorListsService, CreatorListService>();
+            services.AddTransient<IExerciseForLearningService, ExerciseForLearningService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
