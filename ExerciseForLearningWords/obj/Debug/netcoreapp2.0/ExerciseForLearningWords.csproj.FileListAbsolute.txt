@@ -28,3 +28,5 @@ C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\Exerci
 C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.csproj.CopyComplete
 C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.dll
 C:\Users\user\Desktop\изучение\learningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.pdb
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.BLL.dll
+F:\My program\ExerciseForLearningWords\ExerciseForLearningWords\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.BLL.pdb
