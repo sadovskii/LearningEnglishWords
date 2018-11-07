@@ -4,54 +4,41 @@ using System.Linq;
 using System.Threading.Tasks;
 using ExerciseForLearningWords.BLL.Interfaces;
 using ExerciseForLearningWords.CommonViewModels.Models;
+using ExerciseForLearningWords.Converters;
 using ExerciseForLearningWords.Models;
+using ExerciseForLearningWords.Models.CommonViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExerciseForLearningWords.Controllers
 {
     public class CreatorListsController : Controller
     {
-        //private readonly ICreatorListsService creatorListsService;
+        private readonly ICreatorListsService creatorListsService;
+        private CreatorListsView creatorListsView;
 
-        //public CreatorListsController(ICreatorListsService creatorListsService)
-        //{
-        //    this.creatorListsService = creatorListsService;
-        //}
+        public CreatorListsController(ICreatorListsService creatorListsService)
+        {
+            creatorListsView = new CreatorListsView();
+            this.creatorListsService = creatorListsService;
+        }
 
         public IActionResult Creator()
         {
-            List<WordsListView> rrr = new List<WordsListView>
-            {
-                new WordsListView
-                {
-                     Id = 1,
-                     Name = "1 name",
-                     QuantityWords = 1
-                },
-                new WordsListView
-                {
-                     Id = 2,
-                     Name = "2 name",
-                     QuantityWords = 2
-                },
-                new WordsListView
-                {
-                     Id = 3,
-                     Name = "3 name",
-                     QuantityWords = 3
-                }
-            };
+            creatorListsView.wordsLists = creatorListsService.GetAllWordsLists().DtoToViewList();
 
-            return View(rrr);
+            return View(creatorListsView);
         }
 
         public IActionResult DeleteWordsList(WordsListView wordsListView)
         {
+            creatorListsService.Delete(wordsListView.ViewToDto());
+
             return RedirectToAction("Creator");
         }
 
-        public IActionResult SaveNewWordsList(SaveListWordsView saveList)
+        public IActionResult SaveNewWordsList(CreatorListsView saveList)
         {
+            creatorListsService.CreateWordsList(saveList.saveListWords.ViewToDto());
             return RedirectToAction("Creator");
         }
 

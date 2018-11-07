@@ -1,12 +1,15 @@
 ﻿using ExerciseForLearningWords.DAL.EF;
+using ExerciseForLearningWords.DAL.Models;
+using ExerciseForLearningWords.DAL.Repo.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
-namespace ExerciseForLearningWords.DAL.Repo.Interfaces
+namespace ExerciseForLearningWords.DAL.Repo
 {
-    public class Repository<T> : IRepository<T> where T: class
+    public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly ApplicationContext context;
         private DbSet<T> entities;
@@ -20,7 +23,12 @@ namespace ExerciseForLearningWords.DAL.Repo.Interfaces
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            if (entity == null)
+            {
+                throw new ArgumentNullException("entity");
+            }
+            entities.Remove(entity);
+            context.SaveChanges();
         }
 
         public T Get(long id)
@@ -30,12 +38,28 @@ namespace ExerciseForLearningWords.DAL.Repo.Interfaces
 
         public IEnumerable<T> GetAll()
         {
-            throw new NotImplementedException();
+            return entities.AsEnumerable();
         }
 
         public void Insert(T entity)
         {
-            throw new NotImplementedException();
+            if (entity == null)
+            {
+                throw new ArgumentNullException("entity");
+            }
+            entities.Add(entity);
+            context.SaveChanges();
+        }
+
+        public int InsertAndGetId(T entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException("entity");
+            }
+            entities.Add(entity);
+            context.SaveChanges();
+            return entity.Id;
         }
 
         public void Remove(T entity)
@@ -51,6 +75,11 @@ namespace ExerciseForLearningWords.DAL.Repo.Interfaces
         public void Update(T entity)
         {
             throw new NotImplementedException();
+        }
+
+        public void Dispose()
+        {
+            context.Dispose();
         }
     }
 }

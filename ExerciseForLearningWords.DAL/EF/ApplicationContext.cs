@@ -15,5 +15,13 @@ namespace ExerciseForLearningWords.DAL.EF
         {
             Database.EnsureCreated();
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<WordsAndTranslationPair>()
+                .HasOne(p => p.WordsList)
+                .WithMany(t => t.WordsAndTranslationPairs)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }

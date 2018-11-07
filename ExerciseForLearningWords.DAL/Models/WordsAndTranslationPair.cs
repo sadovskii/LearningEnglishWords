@@ -4,12 +4,12 @@ using System.Text;
 
 namespace ExerciseForLearningWords.DAL.Models
 {
-    public class WordsAndTranslationPair
+    public class WordsAndTranslationPair : BaseEntity
     {
-        public int Id { get; set; }
         public string Word { get; set; }
         public string Translation { get; set; }
         public int Status { get; set; }
-        public List<WordsList> WordsLists { get; set; }
+        public int WordsListId { get; set; }
+        public WordsList WordsList { get; set; }
     }
 }

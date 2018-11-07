@@ -1,12 +1,17 @@
-﻿@model List<ExerciseForLearningWords.Models.WordsListView>
+﻿@model ExerciseForLearningWords.Models.CommonViewModels.CreatorListsView
 
 @{
     ViewData["Title"] = "Creator";
 }
 
 <div class="row">
-    <div class="col-md-4" style="border: 1px dashed red">
-        @foreach(var a in Model)
+    <div class="col-md-4 div-list-words">
+        <label>Списки</label>
+        @if (Model.wordsLists.Count == 0)
+        {
+            <h4>списков в данный момент нет</h4>
+        }
+        @foreach (var a in Model.wordsLists)
         {
             <form asp-controller="CreatorLists" asp-action="DeleteWordsList" method="post">
                 <div class="row list-of-WordsList-element">
@@ -19,27 +24,29 @@
                         <button type="submit" class="btn btn-danger">Delete</button>
                     </div>
                 </div>
-           </form>
-
+            </form>
         }
-            
-            
+
+
     </div>
     <div class="col-md-8">
         <form asp-controller="CreatorLists" asp-action="SaveNewWordsList" method="post">
             <label>Название списка</label>
             <div class="row">
                 <div class="col-md-6">
-                    <input class="form-control" type="text" name="Name" />
+                    @*<input class="form-control" type="text" name="Name" />*@
+                    @Html.TextBoxFor(e => e.saveListWords.Name, new { @class = "form-control", @name = "Name" })
                 </div>
                 <div class="col-md-3">
-                    <button type="submit" class="btn btn-success">Save</button>
+                    @*<button type="submit" class="btn btn-success">Save</button>*@
+                    <input type="submit" class="btn btn-success" value="Save" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <label>Слова</label>
-                    <textarea class="form-control fixedWidthTextarea" rows="30" name="PairsOfWords"></textarea>
+                    @*<textarea class="form-control fixedWidthTextarea" rows="30" name="PairsOfWords"></textarea>*@
+                    @Html.TextAreaFor(e => e.saveListWords.PairsOfWords, new { @class = "form-control fixedWidthTextarea", @rows = "30", @name = "PairsOfWords" })
                 </div>
             </div>
         </form>

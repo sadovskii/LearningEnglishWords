@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ExerciseForLearningWords.BLL.Interfaces;
+using ExerciseForLearningWords.BLL.Services;
 using ExerciseForLearningWords.DAL.EF;
+using ExerciseForLearningWords.DAL.Repo;
+using ExerciseForLearningWords.DAL.Repo.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +19,7 @@ namespace ExerciseForLearningWords
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            Configuration = configuration;  
         }
 
         public IConfiguration Configuration { get; }
@@ -28,6 +32,8 @@ namespace ExerciseForLearningWords
             // добавляем контекст MobileContext в качестве сервиса в приложение
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
             services.AddMvc();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddTransient<ICreatorListsService, CreatorListService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
