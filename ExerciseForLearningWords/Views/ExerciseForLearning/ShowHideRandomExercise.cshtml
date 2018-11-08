@@ -24,27 +24,23 @@
     </div>
     <button type="submit" class="btn btn-success test_1">test_1</button>
     <button type="submit" class="btn btn-success test_2">test_2</button>
+    <button type="submit" class="btn btn-success test_3">test_3</button>
     <div class="col-md-8">
         @if (Model.WordsAndTranslationPairs != null)
         {
             @foreach (var a in Model.WordsAndTranslationPairs)
             {
                 <div class="row">
-                    <div class="col-md-6 test_div_1">
-                        <br />
+                    <div class="col-md-6 test_div_1" style="border-bottom: 1px solid grey">
                         <p>@a.Word</p>
-                        <br />
-                
                     </div>
-                    <div class="col-md-6 test_div_2">
-                        <br />
+                    <div class="col-md-6 test_div_2" style="border-bottom: 1px solid grey">
                         <p>@a.Translation</p>
-                        <br />
                     </div>
                 </div>
 
             }
-         }
+        }
     </div>
 </div>
 

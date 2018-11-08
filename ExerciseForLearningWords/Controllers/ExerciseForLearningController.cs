@@ -29,12 +29,13 @@ namespace ExerciseForLearningWords.Controllers
             return View(showHideRandomExercise);
         }
 
+        [HttpPost]
         public IActionResult SelectWordsPairs(WordsListView wordsListView)
         {
             showHideRandomExercise.WordsAndTranslationPairs = exerciseForLearningService.GetAllWordsListsByWordsListId(wordsListView.Id).DtoToView();
             showHideRandomExercise.WordsList = exerciseForLearningService.GetAllWordsLists().DtoToView();
 
-            return View(showHideRandomExercise);
+            return View("ShowHideRandomExercise", showHideRandomExercise);
         }
     }
 }
