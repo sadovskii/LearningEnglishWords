@@ -32,8 +32,9 @@ namespace ExerciseForLearningWords.Controllers
         public IActionResult SelectWordsPairs(WordsListView wordsListView)
         {
             showHideRandomExercise.WordsAndTranslationPairs = exerciseForLearningService.GetAllWordsListsByWordsListId(wordsListView.Id).DtoToView();
+            showHideRandomExercise.WordsList = exerciseForLearningService.GetAllWordsLists().DtoToView();
 
-            return RedirectToAction("ShowHideRandomExercise");
+            return View(showHideRandomExercise);
         }
     }
 }

@@ -6,6 +6,7 @@ using ExerciseForLearningWords.BLL.Interfaces;
 using ExerciseForLearningWords.BLL.Services;
 using ExerciseForLearningWords.DAL.EF;
 using ExerciseForLearningWords.DAL.Repo;
+using ExerciseForLearningWords.DAL.Repo.Implementations;
 using ExerciseForLearningWords.DAL.Repo.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,7 +33,8 @@ namespace ExerciseForLearningWords
             // добавляем контекст MobileContext в качестве сервиса в приложение
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
             services.AddMvc();
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IWordsAndTranslationPairRepository), typeof(WordsAndTranslationPairRepository));
+            services.AddScoped(typeof(IWordsListRepository), typeof(WordsListRepository));
             services.AddTransient<ICreatorListsService, CreatorListService>();
             services.AddTransient<IExerciseForLearningService, ExerciseForLearningService>();
         }

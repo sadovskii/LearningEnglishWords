@@ -22,3 +22,15 @@ F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\ne
 F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.csproj.CopyComplete
 F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
 F:\My program\ExerciseForLearningWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.deps.json
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.AssemblyInfo.cs
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.csproj.CopyComplete
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\ExerciseForLearningWords.DAL\obj\Debug\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb

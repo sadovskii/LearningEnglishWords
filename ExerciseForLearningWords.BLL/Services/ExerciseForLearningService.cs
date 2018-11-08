@@ -4,16 +4,17 @@ using ExerciseForLearningWords.DAL.Models;
 using ExerciseForLearningWords.DAL.Repo.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ExerciseForLearningWords.BLL.Services
 {
     public class ExerciseForLearningService : IExerciseForLearningService
     {
-        private IRepository<WordsAndTranslationPair> wordsAndTranslationPairRepository;
-        private IRepository<WordsList> wordsListRepository;
+        private IWordsAndTranslationPairRepository wordsAndTranslationPairRepository;
+        private IWordsListRepository wordsListRepository;
 
-        public ExerciseForLearningService(IRepository<WordsAndTranslationPair> wordsAndTranslationPairRepository, IRepository<WordsList> wordsListRepository)
+        public ExerciseForLearningService(IWordsAndTranslationPairRepository wordsAndTranslationPairRepository, IWordsListRepository wordsListRepository)
         {
             this.wordsAndTranslationPairRepository = wordsAndTranslationPairRepository;
             this.wordsListRepository = wordsListRepository;
@@ -26,7 +27,7 @@ namespace ExerciseForLearningWords.BLL.Services
 
         public List<WordsAndTranslationPairDTO> GetAllWordsListsByWordsListId(int id)
         {
-            return wordsListRepository.Get(id).WordsAndTranslationPairs.EntityToDto();
+            return wordsAndTranslationPairRepository.GetWordsAndTranslationPairsByRefWordsList(id).EntityToDto();
         }
     }
 }

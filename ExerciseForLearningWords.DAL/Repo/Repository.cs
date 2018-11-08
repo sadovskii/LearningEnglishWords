@@ -14,7 +14,6 @@ namespace ExerciseForLearningWords.DAL.Repo
         private readonly ApplicationContext context;
         private DbSet<T> entities;
         string errorMessage = string.Empty;
-        private DbSet<WordsList> entitiesTest;
         public Repository(ApplicationContext context)
         {
             this.context = context;
@@ -81,6 +80,11 @@ namespace ExerciseForLearningWords.DAL.Repo
         public void Dispose()
         {
             context.Dispose();
+        }
+
+        public int InsertAndGetEntity(T entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

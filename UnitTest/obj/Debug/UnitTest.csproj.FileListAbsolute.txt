@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\user\Desktop\изучение\Learning words\LearningEnglishWords\UnitTest\obj\Debug\UnitTest.pdb

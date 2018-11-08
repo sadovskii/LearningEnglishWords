@@ -10,14 +10,15 @@ namespace ExerciseForLearningWords.BLL.Services
 {
     public class CreatorListService : ICreatorListsService
     {
-        private IRepository<WordsAndTranslationPair> wordsAndTranslationPairRepository;
-        private IRepository<WordsList> wordsListRepository;
+        private IWordsAndTranslationPairRepository wordsAndTranslationPairRepository;
+        private IWordsListRepository wordsListRepository;
 
-        public CreatorListService(IRepository<WordsAndTranslationPair> wordsAndTranslationPairRepository, IRepository<WordsList> wordsListRepository)
+        public CreatorListService(IWordsAndTranslationPairRepository wordsAndTranslationPairRepository, IWordsListRepository wordsListRepository)
         {
             this.wordsAndTranslationPairRepository = wordsAndTranslationPairRepository;
             this.wordsListRepository = wordsListRepository;
         }
+
         public void Delete(WordsListDTO wordsListDTO)
         {
             wordsListRepository.Delete(wordsListDTO.DtoToEntity());
@@ -47,11 +48,11 @@ namespace ExerciseForLearningWords.BLL.Services
                 QuantityWords = listOfPair.Count
             };
 
-            int IdWordsList = wordsListRepository.InsertAndGetId(wordsList.DtoToEntity());
+            var WordsList = wordsListRepository.InsertAndGetEntity(wordsList.DtoToEntity()).EntityToDto();
 
             foreach (var a in listOfPair)
             {
-                a.WordsListId = IdWordsList;
+                a.WordsListId = WordsList.Id;
                 wordsAndTranslationPairRepository.Insert(a.DtoToEntity());
             }
         }
