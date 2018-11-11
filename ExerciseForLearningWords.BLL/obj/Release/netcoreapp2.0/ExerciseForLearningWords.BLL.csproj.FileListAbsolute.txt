@@ -1,0 +1,14 @@
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\bin\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.deps.json
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\bin\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\bin\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.pdb
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\bin\Release\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\bin\Release\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\obj\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.csprojResolveAssemblyReference.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\obj\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.csproj.CoreCompileInputs.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\obj\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.AssemblyInfoInputs.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\obj\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.AssemblyInfo.cs
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\obj\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.csproj.CopyComplete
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\obj\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords.BLL\obj\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.pdb

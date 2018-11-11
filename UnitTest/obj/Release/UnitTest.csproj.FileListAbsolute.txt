@@ -1,0 +1,14 @@
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\UnitTest.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\UnitTest.pdb
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\obj\Release\UnitTest.csprojResolveAssemblyReference.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\obj\Release\UnitTest.csproj.CoreCompileInputs.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\obj\Release\UnitTest.csproj.CopyComplete
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\obj\Release\UnitTest.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\UnitTest\obj\Release\UnitTest.pdb

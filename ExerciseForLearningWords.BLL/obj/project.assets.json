@@ -680,25 +680,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\Антон\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\изучение\\Learning words\\LearningEnglishWords\\ExerciseForLearningWords.BLL\\ExerciseForLearningWords.BLL.csproj",
+      "projectUniqueName": "F:\\My program\\ExerciseForLearningWords\\LearningEnglishWords\\ExerciseForLearningWords.BLL\\ExerciseForLearningWords.BLL.csproj",
       "projectName": "ExerciseForLearningWords.BLL",
-      "projectPath": "C:\\Users\\user\\Desktop\\изучение\\Learning words\\LearningEnglishWords\\ExerciseForLearningWords.BLL\\ExerciseForLearningWords.BLL.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\изучение\\Learning words\\LearningEnglishWords\\ExerciseForLearningWords.BLL\\obj\\",
+      "projectPath": "F:\\My program\\ExerciseForLearningWords\\LearningEnglishWords\\ExerciseForLearningWords.BLL\\ExerciseForLearningWords.BLL.csproj",
+      "packagesPath": "C:\\Users\\Антон\\.nuget\\packages\\",
+      "outputPath": "F:\\My program\\ExerciseForLearningWords\\LearningEnglishWords\\ExerciseForLearningWords.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Антон\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -712,8 +712,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\изучение\\Learning words\\LearningEnglishWords\\ExerciseForLearningWords.DAL\\ExerciseForLearningWords.DAL.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\изучение\\Learning words\\LearningEnglishWords\\ExerciseForLearningWords.DAL\\ExerciseForLearningWords.DAL.csproj"
+            "F:\\My program\\ExerciseForLearningWords\\LearningEnglishWords\\ExerciseForLearningWords.DAL\\ExerciseForLearningWords.DAL.csproj": {
+              "projectPath": "F:\\My program\\ExerciseForLearningWords\\LearningEnglishWords\\ExerciseForLearningWords.DAL\\ExerciseForLearningWords.DAL.csproj"
             }
           }
         }

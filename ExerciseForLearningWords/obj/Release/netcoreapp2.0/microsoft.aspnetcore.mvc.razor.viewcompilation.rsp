@@ -1,0 +1,14 @@
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=ExerciseForLearningWords
+--content-root=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\CreatorLists\Creator.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\ExerciseForLearning\ShowHideRandomExercise.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\Home\About.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\Home\Contact.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\Home\Index.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\Shared\Error.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\Shared\_Layout.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\_ViewImports.cshtml
+--file=F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\Views\_ViewStart.cshtml

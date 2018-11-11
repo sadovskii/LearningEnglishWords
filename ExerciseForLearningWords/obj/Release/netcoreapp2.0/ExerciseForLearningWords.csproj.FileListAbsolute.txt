@@ -1,0 +1,16 @@
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.deps.json
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.runtimeconfig.json
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.runtimeconfig.dev.json
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.pdb
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.DAL.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.BLL.pdb
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\bin\Release\netcoreapp2.0\ExerciseForLearningWords.DAL.pdb
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Release\netcoreapp2.0\ExerciseForLearningWords.csprojResolveAssemblyReference.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Release\netcoreapp2.0\ExerciseForLearningWords.csproj.CoreCompileInputs.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Release\netcoreapp2.0\ExerciseForLearningWords.AssemblyInfoInputs.cache
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Release\netcoreapp2.0\ExerciseForLearningWords.AssemblyInfo.cs
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Release\netcoreapp2.0\ExerciseForLearningWords.csproj.CopyComplete
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Release\netcoreapp2.0\ExerciseForLearningWords.dll
+F:\My program\ExerciseForLearningWords\LearningEnglishWords\ExerciseForLearningWords\obj\Release\netcoreapp2.0\ExerciseForLearningWords.pdb
